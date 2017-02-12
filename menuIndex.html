@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>菜谱首页</title>
+		<link rel="stylesheet" type="text/css" href="css/menuIndex.css"/>
+		
+	</head>
+	<body class="menuIndex">
+		<div class="top-bar" id="J_top_bar">
+			<ul class="bar-left left">
+				<li><a title="美食天下" target="_blank" class="top_bar_logo"><i>美食天下</i>首页</a></li>
+				<li><a title="菜谱" target="_blank">菜谱</a></li>
+				<li><a title="食材" target="_blank">食材</a></li>
+				<li><a title="珍选" target="_blank">珍选</a></li>
+				<li><a title="健康" target="_blank">健康</a></li>
+				<li><a title="专题" target="_blank">专题</a></li>
+				<li><a title="社区" target="_blank">社区</a></li>
+				<li><a title="话题" target="_blank">话题</a></li>
+				<li><a title="活动" target="_blank">活动</a></li>
+				<li><a title="搜索" target="_blank">搜索</a></li>
+				<li class="top_bar_more"><i></i>
+				<div class="top_bar_more_div">
+					<a title="烘焙" target="_blank">烘焙</a>
+					<a title="妈妈派" target="_blank">妈妈派</a>
+				</div>
+				</li>
+			</ul>
+			<a title="客户端" target="_blank" class="nr3"><img src="img/nr3.png" width=18 height=18>客户端</a>
+			<div class="right" id="J_top_bar_user">
+				<ul id="J_barUser" class="clear bar-info right bar-noLogin">
+					<li class="bar-link bar-item bar-reg">
+						<a href="">注册</a>
+					</li>
+					<li class="bar-link bar-item bar-reg">
+						<a href="">登录</a>
+					</li>
+					<li class="bar-login J_down bar-item bar-box-d">
+						<div class="bar-text">
+							<a href=""><img src="img/nir1.png" height="18" width="18"/>QQ登录</a>
+						</div>
+						<div class="bar-box bar-box-dis">
+							<ul>
+								<li class="bar-box-item-0">
+									<a href=""><img src="img/nir2.png" height="18" width="18"/>微博登陆</a>
+								</li>
+								<li>
+									<a href=""><img src="img/nir3.png" height="18" width="18"/>微信登陆</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="bar-add J_down bar-item bar-add-d">
+						<div class="bar-text">
+							<img src="img/nr1.png" alt="" height="18" width="18"/>
+							发布
+						</div>
+						<div class="bar-box bar-add-dis">
+							<ul>
+								<li class="bar-box-item-0">
+									<a href="" class="J_barLogin">发菜谱</a>
+								</li>
+								<li class="bar-box-item-1">
+									<a href="" class="J_barLogin">发话题</a>
+								</li>
+								<li class="bar-box-item-2">
+									<a href="" class="J_barLogin">发日志</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li id="J_barSign" class="bar-item bar-sign J_down">
+						<a href="javascript:void(0);" class="bar-sign-text J_barLogin">
+							<img src="img/nr2.png" height="18" width="18"/>
+							签到有礼
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<header>
+			<div class="w logo_wrap2">
+				<div class="logo_inner l">
+					<a href="#" title="美食天下">美食天下</a>
+				</div>
+				<div class="logo_current l">
+					<h1><a href="#" title="社区">社区</a></h1>
+				</div>
+				<div class="logo_search r">
+					<form id="form_search" target="_blank">
+						<div class="searchBox J_search">
+							<a href="javascript:;" title="搜索" class="search_Btn J_searchBTN r" id="search">搜索</a><input type="text" id="q" class="search_Text J_searchTxt right gay" data-first="on">
+						</div>
+					</form>
+				</div>
+				<div class="logo_nav r">
+					<a class="on" href="#" title="社区广场">菜谱首页<i></i><b></b></a>
+					<a href="#" title="话题">分类<i></i><b></b></a>
+					<a href="#" title="日志">菜单<i></i><b></b></a>
+					<a href="#" title="活动">排行<i></i><b></b></a>
+					<a href="#" title="活动">食材<i></i><b></b></a>
+					<a href="#" title="活动">食疗食补<i></i><b></b></a>
+				</div>
+			</div>
+			<div class="nav_wrap2">
+				<ul>
+					<li>
+						<a title="广场" href="#" target="_blank" class="on">首页</a>
+					</li>
+					<li>
+						<a title="热门话题" href="#" target="_blank">热菜</a>
+					</li>
+					<li>
+						<a title="精华话题" href="#" target="_blank">凉菜</a>
+					</li>
+					<li>
+						<a title="精华日志" href="#" target="_blank">汤羹</a>
+					</li>
+					<li>
+						<a title="免费抽奖" href="#" target="_blank">主食</a>
+					</li>
+					<li>
+						<a title="免费抽奖" href="#" target="_blank">小吃</a>
+					</li>
+					<li>
+						<a title="免费抽奖" href="#" target="_blank">西餐</a>
+					</li>
+					<li>
+						<a title="免费抽奖" href="#" target="_blank">烘焙</a>
+					</li>
+					<li>
+						<a title="免费抽奖" href="#" target="_blank">饮品</a>
+					</li>
+					<li>
+						<a title="免费抽奖" href="#" target="_blank">自制食材</a>
+					</li>
+					
+
+
+				</ul>
+			</div>
+		</header>
+		<section>
+			<div class="h20"></div>
+			<div class="lunbo">
+				<ul>
+					<li>
+		    			<a href="">
+		    				<i><img src="img/specialIndex/201509091441786677904.jpg"></i>
+		    				<p>千道宴客菜</p>
+		    			</a>
+		    		</li>
+		    		<li>
+		    			<a href="">
+		    				<i><img src="img/specialIndex/20170207148645878329313.jpg"></i>
+		    				<p>正月十五闹元宵</p>
+		    			</a>
+		    		</li>
+		    		<li class="none">
+		    			<a href="">
+		    				<i><img src="img/specialIndex/20170117148464930627613.jpg"></i>
+		    				<p>“夜猫子”必吃的滋补好物</p>
+		    			</a>
+		    		</li>
+				</ul>
+			</div>
+			<div class="allMenu">
+				<a href=""><img src="img/menuIndex/r01.jpg">一周最热</a>
+				<a href=""><img src="img/menuIndex/r02.jpg">人气菜肴</a>
+				<a href=""><img src="img/menuIndex/r03.jpg">夏季食谱</a>
+				<a href=""><img src="img/menuIndex/r04.jpg">高颜值</a>
+				<a href=""><img src="img/menuIndex/r05.jpg">快手菜</a>
+				<a href=""><img src="img/menuIndex/r06.jpg">早餐</a>
+				<a href=""><img src="img/menuIndex/r07.jpg">家常菜谱</a>
+				<a href=""><img src="img/menuIndex/r08.jpg">烘焙大全</a>
+				<a href=""><img src="img/menuIndex/r09.jpg">亲自专区</a>
+				<a href=""><img src="img/menuIndex/r10.jpg">所有菜谱</a>
+			</div>
+			<div class='tabs'>
+				<ul class="menu">
+					<li class="on">最新推荐</li>
+				    <li>最新发布</li>
+				    <li>热菜</li>
+				    <li>凉菜</li>
+				    <li>汤羹</li>
+				    <li>主食</li>
+				    <li>小吃</li>
+				    <li>西餐</li>
+				    <li>烘焙</li>
+				    <li>自制食材</li>
+				    <a class="allClass" href="">全部分类</a>
+				</ul>
+				<div class="main">
+				    <div class="tab" style="display:block;">
+				    	<div class="blank"></div>
+				    	<ul class="main_content">
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148660863187013.jpg"><p>【常德】香辣什锦沼虾锅</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148660846139213.jpg"><p>【广东】彩蔬炒鳄鱼肉</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148660803669713.jpg"><p>【广东】田园蔬菜浓汤</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148660848819313.jpg"><p>【常德】肉丝炖笋</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148660863187013.jpg"><p>【常德】香辣什锦沼虾锅</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148660846139213.jpg"><p>【广东】彩蔬炒鳄鱼肉</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148660803669713.jpg"><p>【广东】田园蔬菜浓汤</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148660848819313.jpg"><p>【常德】肉丝炖笋</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662245552713.jpg"><p>【东北】开胃辣菜</p>
+				    			</a>
+				    			<a class="u">彤彤妈妈61</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662217473113.jpg"><p>【天津】金针菇烧豆腐</p>
+				    			</a>
+				    			<a class="u">尔东叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662227173213.jpg"><p>【天津】焦糖糯米藕</p>
+				    			</a>
+				    			<a class="u">小黠大痴</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662223749313.jpg"><p>【常德】肉汁卤蛋</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662179142213.jpg"><p>【常德】香辣什锦沼虾锅</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662160444013.jpg"><p>【广东】彩蔬炒鳄鱼肉</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662119338113.jpg"><p>【广东】田园蔬菜浓汤</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662127268513.jpg"><p>【常德】肉丝炖笋</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148660863187013.jpg"><p>【常德】香辣什锦沼虾锅</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148660846139213.jpg"><p>【广东】彩蔬炒鳄鱼肉</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148660803669713.jpg"><p>【广东】田园蔬菜浓汤</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148660848819313.jpg"><p>【常德】肉丝炖笋</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148660863187013.jpg"><p>【常德】香辣什锦沼虾锅</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148660846139213.jpg"><p>【广东】彩蔬炒鳄鱼肉</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148660803669713.jpg"><p>【广东】田园蔬菜浓汤</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148660848819313.jpg"><p>【常德】肉丝炖笋</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148660863187013.jpg"><p>【常德】香辣什锦沼虾锅</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148660846139213.jpg"><p>【广东】彩蔬炒鳄鱼肉</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148660803669713.jpg"><p>【广东】田园蔬菜浓汤</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148660848819313.jpg"><p>【常德】肉丝炖笋</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148660863187013.jpg"><p>【常德】香辣什锦沼虾锅</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148660846139213.jpg"><p>【广东】彩蔬炒鳄鱼肉</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148660803669713.jpg"><p>【广东】田园蔬菜浓汤</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148660848819313.jpg"><p>【常德】肉丝炖笋</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    	</ul>
+				    </div>
+				    <div class="tab">
+				    	<div class="blank"></div>
+				    	<ul class="main_content">
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662395042513.jpg"><p>【梅州】客家黄粄</p>
+				    			</a>
+				    			<a class="u">黑猫警长kitchen</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662371931313.jpg"><p>【天津】拌苦瓜</p>
+				    			</a>
+				    			<a class="u">尔东叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662375578413.jpg"><p>【山西】晋南燣肉</p>
+				    			</a>
+				    			<a class="u">行小丫</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662390031613.jpg"><p>【广东】香菇滑鸡煲仔饭</p>
+				    			</a>
+				    			<a class="u">黑猫警长kitchen</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662395042513.jpg"><p>【梅州】客家黄粄</p>
+				    			</a>
+				    			<a class="u">黑猫警长kitchen</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662371931313.jpg"><p>【天津】拌苦瓜</p>
+				    			</a>
+				    			<a class="u">尔东叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662375578413.jpg"><p>【山西】晋南燣肉</p>
+				    			</a>
+				    			<a class="u">行小丫</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662390031613.jpg"><p>【广东】香菇滑鸡煲仔饭</p>
+				    			</a>
+				    			<a class="u">黑猫警长kitchen</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662395042513.jpg"><p>【梅州】客家黄粄</p>
+				    			</a>
+				    			<a class="u">黑猫警长kitchen</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662371931313.jpg"><p>【天津】拌苦瓜</p>
+				    			</a>
+				    			<a class="u">尔东叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662375578413.jpg"><p>【山西】晋南燣肉</p>
+				    			</a>
+				    			<a class="u">行小丫</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662390031613.jpg"><p>【广东】香菇滑鸡煲仔饭</p>
+				    			</a>
+				    			<a class="u">黑猫警长kitchen</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662395042513.jpg"><p>【梅州】客家黄粄</p>
+				    			</a>
+				    			<a class="u">黑猫警长kitchen</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662371931313.jpg"><p>【天津】拌苦瓜</p>
+				    			</a>
+				    			<a class="u">尔东叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662375578413.jpg"><p>【山西】晋南燣肉</p>
+				    			</a>
+				    			<a class="u">行小丫</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662390031613.jpg"><p>【广东】香菇滑鸡煲仔饭</p>
+				    			</a>
+				    			<a class="u">黑猫警长kitchen</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662395042513.jpg"><p>【梅州】客家黄粄</p>
+				    			</a>
+				    			<a class="u">黑猫警长kitchen</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662371931313.jpg"><p>【天津】拌苦瓜</p>
+				    			</a>
+				    			<a class="u">尔东叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662375578413.jpg"><p>【山西】晋南燣肉</p>
+				    			</a>
+				    			<a class="u">行小丫</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662390031613.jpg"><p>【广东】香菇滑鸡煲仔饭</p>
+				    			</a>
+				    			<a class="u">黑猫警长kitchen</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662395042513.jpg"><p>【梅州】客家黄粄</p>
+				    			</a>
+				    			<a class="u">黑猫警长kitchen</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662371931313.jpg"><p>【天津】拌苦瓜</p>
+				    			</a>
+				    			<a class="u">尔东叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662375578413.jpg"><p>【山西】晋南燣肉</p>
+				    			</a>
+				    			<a class="u">行小丫</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662390031613.jpg"><p>【广东】香菇滑鸡煲仔饭</p>
+				    			</a>
+				    			<a class="u">黑猫警长kitchen</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662395042513.jpg"><p>【梅州】客家黄粄</p>
+				    			</a>
+				    			<a class="u">黑猫警长kitchen</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662371931313.jpg"><p>【天津】拌苦瓜</p>
+				    			</a>
+				    			<a class="u">尔东叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662375578413.jpg"><p>【山西】晋南燣肉</p>
+				    			</a>
+				    			<a class="u">行小丫</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662390031613.jpg"><p>【广东】香菇滑鸡煲仔饭</p>
+				    			</a>
+				    			<a class="u">黑猫警长kitchen</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662395042513.jpg"><p>【梅州】客家黄粄</p>
+				    			</a>
+				    			<a class="u">黑猫警长kitchen</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662371931313.jpg"><p>【天津】拌苦瓜</p>
+				    			</a>
+				    			<a class="u">尔东叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662375578413.jpg"><p>【山西】晋南燣肉</p>
+				    			</a>
+				    			<a class="u">行小丫</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662390031613.jpg"><p>【广东】香菇滑鸡煲仔饭</p>
+				    			</a>
+				    			<a class="u">黑猫警长kitchen</a>
+				    		</li>
+				    	</ul>
+				    </div>
+				    <div class="tab">
+				    	<div class="blank"></div>
+				    	<ul class="main_content">
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662245552713.jpg"><p>【东北】开胃辣菜</p>
+				    			</a>
+				    			<a class="u">彤彤妈妈61</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662217473113.jpg"><p>【天津】金针菇烧豆腐</p>
+				    			</a>
+				    			<a class="u">尔东叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662227173213.jpg"><p>【天津】焦糖糯米藕</p>
+				    			</a>
+				    			<a class="u">小黠大痴</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662223749313.jpg"><p>【常德】肉汁卤蛋</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662245552713.jpg"><p>【东北】开胃辣菜</p>
+				    			</a>
+				    			<a class="u">彤彤妈妈61</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662217473113.jpg"><p>【天津】金针菇烧豆腐</p>
+				    			</a>
+				    			<a class="u">尔东叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662227173213.jpg"><p>【天津】焦糖糯米藕</p>
+				    			</a>
+				    			<a class="u">小黠大痴</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662223749313.jpg"><p>【常德】肉汁卤蛋</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662245552713.jpg"><p>【东北】开胃辣菜</p>
+				    			</a>
+				    			<a class="u">彤彤妈妈61</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662217473113.jpg"><p>【天津】金针菇烧豆腐</p>
+				    			</a>
+				    			<a class="u">尔东叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662227173213.jpg"><p>【天津】焦糖糯米藕</p>
+				    			</a>
+				    			<a class="u">小黠大痴</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662223749313.jpg"><p>【常德】肉汁卤蛋</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662245552713.jpg"><p>【东北】开胃辣菜</p>
+				    			</a>
+				    			<a class="u">彤彤妈妈61</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662217473113.jpg"><p>【天津】金针菇烧豆腐</p>
+				    			</a>
+				    			<a class="u">尔东叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662227173213.jpg"><p>【天津】焦糖糯米藕</p>
+				    			</a>
+				    			<a class="u">小黠大痴</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662223749313.jpg"><p>【常德】肉汁卤蛋</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662245552713.jpg"><p>【东北】开胃辣菜</p>
+				    			</a>
+				    			<a class="u">彤彤妈妈61</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662217473113.jpg"><p>【天津】金针菇烧豆腐</p>
+				    			</a>
+				    			<a class="u">尔东叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662227173213.jpg"><p>【天津】焦糖糯米藕</p>
+				    			</a>
+				    			<a class="u">小黠大痴</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662223749313.jpg"><p>【常德】肉汁卤蛋</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662245552713.jpg"><p>【东北】开胃辣菜</p>
+				    			</a>
+				    			<a class="u">彤彤妈妈61</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662217473113.jpg"><p>【天津】金针菇烧豆腐</p>
+				    			</a>
+				    			<a class="u">尔东叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662227173213.jpg"><p>【天津】焦糖糯米藕</p>
+				    			</a>
+				    			<a class="u">小黠大痴</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662223749313.jpg"><p>【常德】肉汁卤蛋</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662245552713.jpg"><p>【东北】开胃辣菜</p>
+				    			</a>
+				    			<a class="u">彤彤妈妈61</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662217473113.jpg"><p>【天津】金针菇烧豆腐</p>
+				    			</a>
+				    			<a class="u">尔东叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662227173213.jpg"><p>【天津】焦糖糯米藕</p>
+				    			</a>
+				    			<a class="u">小黠大痴</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662223749313.jpg"><p>【常德】肉汁卤蛋</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662245552713.jpg"><p>【东北】开胃辣菜</p>
+				    			</a>
+				    			<a class="u">彤彤妈妈61</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662217473113.jpg"><p>【天津】金针菇烧豆腐</p>
+				    			</a>
+				    			<a class="u">尔东叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662227173213.jpg"><p>【天津】焦糖糯米藕</p>
+				    			</a>
+				    			<a class="u">小黠大痴</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662223749313.jpg"><p>【常德】肉汁卤蛋</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    	</ul>
+				    </div>
+				    <div class="tab">
+				    	<div class="blank"></div>
+				    	<ul class="main_content">
+				    		
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662179142213.jpg"><p>【常德】香辣什锦沼虾锅</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662160444013.jpg"><p>【广东】彩蔬炒鳄鱼肉</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662119338113.jpg"><p>【广东】田园蔬菜浓汤</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662127268513.jpg"><p>【常德】肉丝炖笋</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662179142213.jpg"><p>【常德】香辣什锦沼虾锅</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662160444013.jpg"><p>【广东】彩蔬炒鳄鱼肉</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662119338113.jpg"><p>【广东】田园蔬菜浓汤</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662127268513.jpg"><p>【常德】肉丝炖笋</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662179142213.jpg"><p>【常德】香辣什锦沼虾锅</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662160444013.jpg"><p>【广东】彩蔬炒鳄鱼肉</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662119338113.jpg"><p>【广东】田园蔬菜浓汤</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662127268513.jpg"><p>【常德】肉丝炖笋</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662179142213.jpg"><p>【常德】香辣什锦沼虾锅</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662160444013.jpg"><p>【广东】彩蔬炒鳄鱼肉</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662119338113.jpg"><p>【广东】田园蔬菜浓汤</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662127268513.jpg"><p>【常德】肉丝炖笋</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662179142213.jpg"><p>【常德】香辣什锦沼虾锅</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662160444013.jpg"><p>【广东】彩蔬炒鳄鱼肉</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662119338113.jpg"><p>【广东】田园蔬菜浓汤</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662127268513.jpg"><p>【常德】肉丝炖笋</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662179142213.jpg"><p>【常德】香辣什锦沼虾锅</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662160444013.jpg"><p>【广东】彩蔬炒鳄鱼肉</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662119338113.jpg"><p>【广东】田园蔬菜浓汤</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662127268513.jpg"><p>【常德】肉丝炖笋</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662179142213.jpg"><p>【常德】香辣什锦沼虾锅</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662160444013.jpg"><p>【广东】彩蔬炒鳄鱼肉</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662119338113.jpg"><p>【广东】田园蔬菜浓汤</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662127268513.jpg"><p>【常德】肉丝炖笋</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662179142213.jpg"><p>【常德】香辣什锦沼虾锅</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662160444013.jpg"><p>【广东】彩蔬炒鳄鱼肉</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li>
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662119338113.jpg"><p>【广东】田园蔬菜浓汤</p>
+				    			</a>
+				    			<a class="u">火镀红叶</a>
+				    		</li>
+				    		<li class="margin_none">
+				    			<a>
+				    				<img src="img/menuIndex/20170209148662127268513.jpg"><p>【常德】肉丝炖笋</p>
+				    			</a>
+				    			<a class="u">牛妈厨房</a>
+				    		</li>
+				    	</ul>
+				    </div>
+				</div>
+			</div>
+			
+			<div style='clear:both'></div>
+			
+			<div class="addMore">
+				<input type="button" value="查看更多" />
+			</div>
+			<div class="adpic">
+				<img src="img/menuIndex/2017-02-09_144430.png" />
+			</div>
+		</section>
+		
+		
+		<footer>
+			
+		</footer>
+		
+		<div class="footer-area clear">
+			<div class="w">
+				<div class="ft1">
+					<p class="c3b"><a>美食天下 - 让吃更美好！</a></p>
+					<p class="c3c"><a>认识美天</a> · <a>在美天工作</a> · <a>广告与合作</a> · <a>版权与免责</a> · <a>帮助中心</a> · <a>网站地图</a> · <a>移动应用</a></p>
+					<p style="line-height: 22px; padding: 18px 0px 0px;"><strong style="color:#000">合作媒体：</strong> <a><img src="img/yidianzixun.gif" style="height: 22px; margin: 0px 0px 0px 10px;"></a></p>
+				</div>
+				<div class="ft4">
+					<img width="82" title="微信公众号" src="img/weixin_727.png">微信公众号
+				</div>
+				<div class="ft3">
+					<img width="82" title="手机客户端" src="img/msc_app.png">手机客户端
+				</div>
+				
+			</div>
+		</div>
+		<script src="js/jquery_1.9.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/TabSwitch.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+		/*
+		   
+		   插件介绍：简单的Tab切换插件，可以设置否自动切换，可以自定义设置操作事件,可以设置延时显示。
+		*/
+		$(document).ready(function(){
+		    $('.tabs').myTab({
+		        operate:'mouseup',
+		        time:3000,
+		        auto:false,
+		        delayTime: 0
+		    })
+		});
+		
+		</script>
+	</body>
+</html>

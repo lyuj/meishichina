@@ -1,0 +1,93 @@
+@import "api";
+
+
+*{
+    @extend .box;
+}
+
+.lanternFestival{
+    text-align: center;font: 12px/1.6 "Hiragino Sans GB",STHeiti,"微软雅黑","Microsoft YaHei",Helvetica,Arial,serif;
+    .bg{
+        width: 100%;height: 350px;background: url(../img/lanternFestival/20170208148653430181713.jpg) no-repeat center;overflow: hidden;
+    }
+    .bg:hover{
+        cursor: pointer;
+    }
+    section{
+        width: 990px;margin: 0 auto;
+        
+        .introduce{
+            margin-top: 30px;margin-bottom: 20px;
+            ul{
+                display: block;width: 300px;height:130px;float: right;margin-left: 10px;
+                li{
+                    float: left;width: 60px;
+                    a{
+                        color: #666;font-size: 11px;
+                        i{
+                            width: 30px;
+                            height: 30px;
+                            display: block;
+                            margin: 2px auto;
+                            background: url(../img/lanternFestival/ix2.png) no-repeat 0 0/auto 30px;
+                        }
+                        .two{
+                            background-position-x: -150px;
+                        }
+                        .three{
+                            background-position-x: -90px;
+                        }
+                        .four{
+                            background-position-x: -120px;
+                        }
+                        .five{
+                            background-position-x: -60px;
+                        }
+                    }
+                }
+            }
+            p{
+                font-size: 18px;color: #333;text-align: left;
+            }
+        }
+        .name{
+            line-height: 20px;padding: 20px 0 20px 25px;float: left;width: 990px;text-align: left;
+            background: url(../img/lanternFestival/mo.png) no-repeat scroll left center;
+            h2{
+                color: #333;font-weight: 400;
+            }
+        }
+        .text{
+            width: 990px;overflow: hidden;text-align: left;font-size: 18px;margin-bottom: 10px;
+        }
+        .pic{
+            ul{
+                li{
+                    width: 230px;height: 268px;overflow: hidden;float: left;margin-right: 23px;margin-bottom: 20px;
+                    img{
+                        width: 230px;height: 230px;
+                    }
+                    span{
+                        font-size: 18px;padding: 0px 0 5px 0;
+                    }
+                }
+                .none{
+                    margin-right: 0px;
+                }
+            }
+        }
+    }
+}
+
+.footer-area,.footer-info{
+    text-align: left;
+}
+.footer-info{
+    .w{
+        .left{
+            a{
+                float: left;
+            }
+        }
+    }
+}
