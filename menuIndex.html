@@ -3,22 +3,22 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>菜谱首页</title>
-		<link rel="stylesheet" type="text/css" href="css/menuIndex.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 		
 	</head>
 	<body class="menuIndex">
 		<div class="top-bar" id="J_top_bar">
 			<ul class="bar-left left">
-				<li><a title="美食天下" target="_blank" class="top_bar_logo"><i>美食天下</i>首页</a></li>
-				<li><a title="菜谱" target="_blank">菜谱</a></li>
-				<li><a title="食材" target="_blank">食材</a></li>
-				<li><a title="珍选" target="_blank">珍选</a></li>
-				<li><a title="健康" target="_blank">健康</a></li>
-				<li><a title="专题" target="_blank">专题</a></li>
-				<li><a title="社区" target="_blank">社区</a></li>
-				<li><a title="话题" target="_blank">话题</a></li>
-				<li><a title="活动" target="_blank">活动</a></li>
-				<li><a title="搜索" target="_blank">搜索</a></li>
+				<li><a title="美食天下" href="index.html" class="top_bar_logo"><i>美食天下</i>首页</a></li>
+				<li><a title="菜谱" href="menuIndex.html">菜谱</a></li>
+				<li><a title="食材">食材</a></li>
+				<li><a title="珍选" href="zhenxuan.html">珍选</a></li>
+				<li><a title="健康" href="healthIndex.html">健康</a></li>
+				<li><a title="专题" href="specialIndex.html">专题</a></li>
+				<li><a title="社区" href="meishi-home.html">社区</a></li>
+				<li><a title="话题" href="meishi-topic.html">话题</a></li>
+				<li><a title="活动" href="lanternFestival.html">活动</a></li>
+				<li><a title="搜索">搜索</a></li>
 				<li class="top_bar_more"><i></i>
 				<div class="top_bar_more_div">
 					<a title="烘焙" target="_blank">烘焙</a>
@@ -84,7 +84,7 @@
 					<a href="#" title="美食天下">美食天下</a>
 				</div>
 				<div class="logo_current l">
-					<h1><a href="#" title="社区">社区</a></h1>
+					<h1><a href="#" title="菜谱">菜谱</a></h1>
 				</div>
 				<div class="logo_search r">
 					<form id="form_search" target="_blank">
@@ -195,10 +195,10 @@
 				    	<div class="blank"></div>
 				    	<ul class="main_content">
 				    		<li>
-				    			<a>
-				    				<img src="img/menuIndex/20170209148660863187013.jpg"><p>【常德】香辣什锦沼虾锅</p>
+				    			<a href="rousichaoyangcong.html">
+				    				<img src="img/rousichaoyangcong/2017020914866485520467513584.jpg"><p>【北京】肉丝炒洋葱</p>
 				    			</a>
-				    			<a class="u">牛妈厨房</a>
+				    			<a class="u">Meggy跳舞的苹果</a>
 				    		</li>
 				    		<li>
 				    			<a>
@@ -1016,20 +1016,7 @@
 		</div>
 		<script src="js/jquery_1.9.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/TabSwitch.js" type="text/javascript" charset="utf-8"></script>
-		<script type="text/javascript">
-		/*
-		   
-		   插件介绍：简单的Tab切换插件，可以设置否自动切换，可以自定义设置操作事件,可以设置延时显示。
-		*/
-		$(document).ready(function(){
-		    $('.tabs').myTab({
-		        operate:'mouseup',
-		        time:3000,
-		        auto:false,
-		        delayTime: 0
-		    })
-		});
-		
-		</script>
+		<script src="js/jquery.gototop.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 </html>

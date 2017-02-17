@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>美食天下|美食|菜谱大全|家常菜谱|美食社区-最大的中文美食网站</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="shortcut icon" href="img/f.ico"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script type="text/javascript" src="js/jquery_1.9.js"></script>
+	</head>
+	<body class="index">
+		<div class="top-bar" id="J_top_bar">
+			<ul class="bar-left left">
+				<li><a title="美食天下" href="index.html" class="top_bar_logo"><i>美食天下</i>首页</a></li>
+				<li><a title="菜谱" href="menuIndex.html">菜谱</a></li>
+				<li><a title="食材">食材</a></li>
+				<li><a title="珍选" href="zhenxuan.html">珍选</a></li>
+				<li><a title="健康" href="healthIndex.html">健康</a></li>
+				<li><a title="专题" href="specialIndex.html">专题</a></li>
+				<li><a title="社区" href="meishi-home.html">社区</a></li>
+				<li><a title="话题" href="meishi-topic.html">话题</a></li>
+				<li><a title="活动" href="lanternFestival.html">活动</a></li>
+				<li><a title="搜索">搜索</a></li>
+				<li class="top_bar_more"><i></i>
+				<div class="top_bar_more_div">
+					<a title="烘焙" target="_blank">烘焙</a>
+					<a title="妈妈派" target="_blank">妈妈派</a>
+				</div>
+				</li>
+			</ul>
+			<a title="客户端" target="_blank" class="nr3"><img src="img/nr3.png" width=18 height=18>客户端</a>
+			<div class="right" id="J_top_bar_user">
+				<ul id="J_barUser" class="clear bar-info right bar-noLogin">
+					<li class="bar-link bar-item bar-reg">
+						<a href="">注册</a>
+					</li>
+					<li class="bar-link bar-item bar-reg">
+						<a href="">登录</a>
+					</li>
+					<li class="bar-login J_down bar-item bar-box-d">
+						<div class="bar-text">
+							<a href=""><img src="img/nir1.png" height="18" width="18"/>QQ登录</a>
+						</div>
+						<div class="bar-box bar-box-dis">
+							<ul>
+								<li class="bar-box-item-0">
+									<a href="" style="margin-top: -10px;"><img src="img/nir2.png" height="18" width="18"/>微博</a>
+								</li>
+								<li>
+									<a href="" style="margin-top: -10px;"><img src="img/nir3.png" height="18" width="18"/>微信</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="bar-add J_down bar-item bar-add-d">
+						<div class="bar-text">
+							<img src="img/nr1.png" alt="" height="18" width="18"/>
+							发布
+						</div>
+						<div class="bar-box bar-add-dis">
+							<ul>
+								<li class="bar-box-item-0">
+									<a href="" class="J_barLogin">发菜谱</a>
+								</li>
+								<li class="bar-box-item-1">
+									<a href="" class="J_barLogin">发话题</a>
+								</li>
+								<li class="bar-box-item-2">
+									<a href="" class="J_barLogin">发日志</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li id="J_barSign" class="bar-item bar-sign J_down">
+						<a href="javascript:void(0);" class="bar-sign-text J_barLogin">
+							<img src="img/nr2.png" height="18" width="18"/>
+							签到有礼
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="w logo_wrap2">
+			<div class="logo_inner left">
+				<a href="index.htm" title="美食天下">美食天下</a>
+			</div>
+			<div class="logo_search right">
+				<form id="form_search" action="" method="post" target="_blank">
+					<div class="searchBox J_search">
+						<a href="javascript:;" title="搜索" class="search_Btn J_searchBTN right" id="search">搜索</a>
+						<input type="text" id="q" class="search_Text J_searchTxt right gay" data-first="on">
+					</div>
+				</form>
+			</div>
+			<div class="logo_nav">
+				<a title="首页" href="index.htm" class="on" target="_blank">首页</a>
+				<a title="菜谱" target="_blank">菜谱</a>
+				<a title="食材" target="_blank">食材</a>
+				<a title="珍选" target="_blank">珍选</a>
+				<a title="健康" target="_blank">健康</a>
+				<a title="专题" target="_blank">专题</a>
+				<a title="社区" target="_blank">社区</a>
+				<a title="话题" target="_blank">话题</a>
+			</div>
+		</div>
+		
+		<div class="wrap">
+			<div class="w clear">
+				<div class="w1">
+					<div id="home_index_slider">
+						<div id="list" style="left: -990px;">
+				        <img src="img/3.jpg" alt="1"/>
+				        <img src="img/1.jpg" alt="1"/>
+				        <img src="img/2.jpg" alt="2"/>
+				        <img src="img/3.jpg" alt="3"/>
+				        <img src="img/1.jpg" alt="3"/>
+					    </div>
+					    <div id="buttons">
+					        <span index="1" class="on"></span>
+					        <span index="2"></span>
+					        <span index="3"></span>
+					    </div>
+					    <a href="javascript:;" id="prev" class="arrow">&lt;</a>
+					    <a href="javascript:;" id="next" class="arrow">&gt;</a>
+					</div>
+					<div class="w1_1">
+						<ul>
+							<li class="i1 laa"><a class="la" href=""><i></i>菜谱大全<b></b></a>
+								<ul class="sub">
+									<li><a href="meishi-dongji.html">冬季食谱<span>看看大家在吃啥</span></a></li>
+									<li><a href="" target="_blank">早餐<span>像国王一样早餐</span></a></li>
+									<li><a href="" target="_blank">高颜值<span>颜控专用通道</span></a></li>
+									<li><a href="" target="_blank">凉菜<span>精选2600道</span></a></li>
+									<li><a href="" target="_blank">热菜<span>精选42500道</span></a></li>
+									<li><a href="" target="_blank">汤羹<span>精选6800道</span></a></li>
+									<li><a href="" target="_blank">主食<span>精选18000道</span></a></li>
+									<li><a href="" target="_blank">小吃<span>精选11000道</span></a></li>
+									<li><a href="" target="_blank">酱泡腌菜<span>精选700道</span></a></li>
+									<li><a href="" target="_blank">新秀菜谱<span>最新的优秀菜谱</span></a></li>
+									<li><a href="" target="_blank">人气菜肴<span>超过50人收藏</span></a></li>
+									<li><a href="" target="_blank">所有分类<span>美天的神奇饭盒</span></a></li>
+								</ul>
+							</li>
+							<li class="i2 laa"><a class="la" href="" target="_blank"><i></i>食材大全<b></b></a>
+								<ul class="sub">
+									<li><a href="" target="_blank">秋葵<span>新晋VC王</span></a></li>
+									<li><a href="" target="_blank">西红柿<span>共3160道菜谱</span></a></li>
+									<li><a href="" target="_blank">黑木耳<span>百搭配菜，防雾霾</span></a></li>
+									<li><a href="" target="_blank">小龙虾<span>红到勾心，辣到流泪</span></a></li>
+									<li><a href="" target="_blank">螃蟹<span>全民爆红</span></a></li>
+									<li><a href="" target="_blank">鸡翅<span>共1156道菜谱</span></a></li>
+									<li><a href="" target="_blank">肉禽蛋<span>共231种</span></a></li>
+									<li><a href="" target="_blank">水产品<span>共288种</span></a></li>
+									<li><a href="" target="_blank">蔬菜瓜菌<span>共473种</span></a></li>
+									<li><a href="" target="_blank">鲜果干果<span>共196种</span></a></li>
+									<li><a href="" target="_blank">米面豆乳<span>共180种</span></a></li>
+									<li><a href="" target="_blank">营养排行<span>看看谁TOP!</span></a></li>
+								</ul>
+							</li>
+							<li class="i3 laa"><a class="la" href="" target="_blank"><i></i>品质珍选<b></b></a>
+								<ul class="sub">
+									<li><a href="" target="_blank">浪漫七夕<span>为他挑选一份小礼物</span></a></li>
+									<li><a href="" target="_blank">葡萄酒<span>亚马逊海外直采</span></a></li>
+									<li><a href="" target="_blank">咖啡<span>和生活约会</span></a></li>
+									<li><a href="" target="_blank">限时秒杀<span>抢到就是赚到，手慢无</span></a></li>
+									<li><a href="" target="_blank">白菜价<span>超值爆款</span></a></li>
+									<li><a href="" target="_blank">买了又买<span>买了又双叒叕买</span></a></li>
+									<li><a href="" target="_blank">厨房神器<span>神器在手，美食无忧</span></a></li>
+									<li><a href="" target="_blank">镇店之宝<span>不可错过的明星产品</span></a></li>
+									<li><a href="" target="_blank">海淘食光<span>搜罗全世界的好东西</span></a></li>
+								</ul>
+							</li>
+							<li class="i4 laa"><a class="la" href="" target="_blank"><i></i>专题专区<b></b></a>
+								<ul class="sub">
+									<li><a href="" target="_blank">菜单<span>由网友创建的专题</span></a></li>
+									<li><a href="" target="_blank">家常菜谱<span>居家必备368款</span></a></li>
+									<li><a href="" target="_blank">食疗食补<span>共212个专题</span></a></li>
+									<li class="pic"><a style="margin-top:60px;" href="" target="_blank"><img src="img/mamapai.jpg" width="165" /></a></li>
+									<li class="pic"><a style="margin-top:60px;" href="" target="_blank"><img src="img/hongbei.jpg" width="165" /></a></li>
+								</ul>
+							</li>
+							<li class="i5 laa"><a class="la" href="" target="_blank"><i></i>一起红<b></b></a>
+								<ul class="sub">
+									<li class="pic2"><a href="" target="_blank"><img src="img/erweima.jpg" width="120" /></a></li>
+									<li class="pic2"><a style="margin-top:10px;" href="" target="_blank"><img src="img/tu.jpg" width="390" /></a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/lunbo.js"></script>
+		<script type="text/javascript" src="js/common_c.js"></script>	
+		<div class="newshow">
+			<div class="zhenxuan-itemTitle slidp">
+				<h3 class="on"><a>新秀菜谱</a></h3>
+				<h3><a>一周热门</a></h3>
+				<h3><a>最受欢迎的家常菜</a></h3>
+				<a class="subTitle">菜谱首页</a>
+				<a class="subTitle">西餐</a>
+				<a class="subTitle">小吃</a>
+				<a class="subTitle">主食</a>
+				<a class="subTitle">汤羹</a>
+				<a class="subTitle">凉菜</a>
+				<a class="subTitle">热菜</a>
+			</div>
+			<div class="clearfix"></div>
+			<div class="zhenxuan-itemGoods">
+				<ul class="zhenxuan-subItemGoods">
+					<li>
+						<a href="" class="zhenxuan-itemGoods-photo">
+							<i>
+								<img src="img/xinxiucaipu/20170211148682150361213.jpg" />
+							</i>
+							<p>芙蓉开背虾</p>
+						</a>
+						<a href="" class="btn-name">沙儿飞飞❉</a>
+					</li>
+					<li>
+						<a href="" class="zhenxuan-itemGoods-photo">
+							<i>
+								<img src="img/xinxiucaipu/20170211148682146352313.jpg" />
+							</i>
+							<p>开宝汤圆</p>
+						</a>
+						<a href="" class="btn-name">梦中飞絮88</a>
+					</li>
+					<li>
+						<a href="" class="zhenxuan-itemGoods-photo">
+							<i>
+								<img src="img/xinxiucaipu/20170211148682142544913.jpg" />
+							</i>
+							<p>萝卜丝肉丸</p>
+						</a>
+						<a href="" class="btn-name">幸福的煮妇</a>
+					</li>
+					<li>
+						<a href="" class="zhenxuan-itemGoods-photo">
+							<i>
+								<img src="img/xinxiucaipu/20170211148681241954313.jpg" />
+							</i>
+							<p>猫爪汤圆</p>
+						</a>
+						<a href="" class="btn-name">石榴树2008</a>
+					</li>
+					<li>
+						<a href="" class="zhenxuan-itemGoods-photo">
+							<i>
+								<img src="img/xinxiucaipu/20170211148681229179813.jpg" />
+							</i>
+							<p>荷兰豆炒腊肠</p>
+						</a>
+						<a href="" class="btn-name">石榴树2008</a>
+					</li>
+					<li>
+						<a href="" class="zhenxuan-itemGoods-photo">
+							<i>
+								<img src="img/xinxiucaipu/20170211148680604464413.jpg" />
+							</i>
+							<p>草莓慕斯蛋糕</p>
+						</a>
+						<a href="" class="btn-name">Elin</a>
+					</li>
+					<li>
+						<a href="" class="zhenxuan-itemGoods-photo">
+							<i>
+								<img src="img/xinxiucaipu/20170211148680019765513.jpg" />
+							</i>
+							<p>自制滚元宵</p>
+						</a>
+						<a href="" class="btn-name">多味小厨～</a>
+					</li>
+					<li>
+						<a href="" class="zhenxuan-itemGoods-photo">
+							<i>
+								<img src="img/xinxiucaipu/20170211148680003822813.jpg" />
+							</i>
+							<p>中种玫瑰椰丝蛋糕</p>
+						</a>
+						<a href="" class="btn-name">炫润丝巾</a>
+					</li>
+					<li>
+						<a href="" class="zhenxuan-itemGoods-photo">
+							<i>
+								<img src="img/xinxiucaipu/20170211148679996846713.jpg" />
+							</i>
+							<p>贝壳彩虹蛋糕</p>
+						</a>
+						<a href="" class="btn-name">炫润丝巾</a>
+					</li>
+					<li>
+						<a href="" class="zhenxuan-itemGoods-photo">
+							<i>
+								<img src="img/xinxiucaipu/20170211148679534042413.jpg" />
+							</i>
+							<p>拔丝红薯</p>
+						</a>
+						<a href="" class="btn-name">青青春_CtpbdE</a>
+					</li>
+					<li>
+						<a href="" class="zhenxuan-itemGoods-photo">
+							<i>
+								<img src="img/xinxiucaipu/20170211148679531022813.jpg" />
+							</i>
+							<p>干捞汤圆</p>
+						</a>
+						<a href="" class="btn-name">天国的女儿</a>
+					</li>
+					<li>
+						<a href="" class="zhenxuan-itemGoods-photo">
+							<i>
+								<img src="img/xinxiucaipu/20170211148679526159113.jpg" />
+							</i>
+							<p>炸汤圆</p>
+						</a>
+						<a href="" class="btn-name">天国的女儿</a>
+					</li>
+					<li>
+						<a href="" class="zhenxuan-itemGoods-photo">
+							<i>
+								<img src="img/xinxiucaipu/20170211148679513351513.jpg" />
+							</i>
+							<p>牛肉青蒜豆腐丝</p>
+						</a>
+						<a href="" class="btn-name">Meggy跳舞的苹果</a>
+					</li>
+					<li>
+						<a href="" class="zhenxuan-itemGoods-photo">
+							<i>
+								<img src="img/xinxiucaipu/20170211148679517029113.jpg" />
+							</i>
+							<p>椰皇包</p>
+						</a>
+						<a href="" class="btn-name">吃好吃的喽520</a>
+					</li>
+					<li>
+						<a href="" class="zhenxuan-itemGoods-photo">
+							<i>
+								<img src="img/xinxiucaipu/20170211148679509273613.jpg" />
+							</i>
+							<p>香菇肉馅版咸汤圆</p>
+						</a>
+						<a href="" class="btn-name">xian_闲云_yun</a>
+					</li>
+					<li>
+						<a href="" class="zhenxuan-itemGoods-photo">
+							<i>
+								<img src="img/xinxiucaipu/20170211148679503476813.jpg" />
+							</i>
+							<p>萝卜牛腩煲</p>
+						</a>
+						<a href="" class="btn-name">wandering123</a>
+					</li>
+					<li>
+						<a href="" class="zhenxuan-itemGoods-photo">
+							<i>
+								<img src="img/xinxiucaipu/20170211148679064538413.jpg" />
+							</i>
+							<p>酸菜鸡蛋汤年糕</p>
+						</a>
+						<a href="" class="btn-name">牛妈厨房</a>
+					</li>
+					<li>
+						<a href="" class="zhenxuan-itemGoods-photo">
+							<i>
+								<img src="img/xinxiucaipu/20170211148679060249213.jpg" />
+							</i>
+							<p>葡萄辫子包</p>
+						</a>
+						<a href="" class="btn-name">吃好吃的喽520</a>
+					</li>
+					<li>
+						<a href="" class="zhenxuan-itemGoods-photo">
+							<i>
+								<img src="img/xinxiucaipu/20170211148679051356513.jpg" />
+							</i>
+							<p>糖不甩如意果</p>
+						</a>
+						<a href="" class="btn-name">牛妈厨房</a>
+					</li>
+					<li>
+						<a href="" class="zhenxuan-itemGoods-photo">
+							<i>
+								<img src="img/xinxiucaipu/20170211148678578651113.jpg" />
+							</i>
+							<p>多啦A梦汤圆</p>
+						</a>
+						<a href="" class="btn-name">salila82</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="timeveg">
+			<div class="w4">
+				<div class="ui_title">
+				<div class="ui_title_wrap">
+				<h2 class="on"><a title="时令食材" href="" target="_blank">时令食材</a></h2>
+				<a title="食材首页" href="" target="_blank" class="right">食材首页</a>
+				<a title="米面豆乳" href="" target="_blank" class="right">米面豆乳</a>
+				<a title="蔬菜" href="" target="_blank" class="right">蔬菜</a>
+				<a title="水产品" href="" target="_blank" class="right">水产品</a>
+				<a title="肉禽蛋" href="" target="_blank" class="right">肉禽蛋</a>
+				</div>
+				</div>
+				<div class="tui_c">
+				<ul>
+					<li><a title="白菜" href="" target="_blank"><img class="imgLoad" src="img/timenew/luobo.jpg" /><br />萝卜</a><span>百疏之首</span></li>
+					<li><a title="苹果" href="" target="_blank"><img class="imgLoad" src="img/timenew/pingguo.jpg" /><br />苹果</a><span>平安是福</span></li>
+					<li><a title="萝卜" href="" target="_blank"><img class="imgLoad" src="img/timenew/shanyao.jpg" /><br />萝卜</a><span>治百病 胜良药</span></li>
+					<li><a title="荸荠" href="" target="_blank"><img class="imgLoad" src="img/timenew/biqi.jpg" /><br />荸荠</a><span>水灵儿的地下党</span></li>
+					<li><a title="红薯" href="" target="_blank"><img class="imgLoad" src="img/timenew/hongshu.jpg" /><br />红薯</a><span>烫手山芋也人见人爱</span></li>
+					<li><a title="山药" href="" target="_blank"><img class="imgLoad" src="img/timenew/shanyao.jpg" /><br />山药</a><span>补虚上品“小人参”</span></li>
+					<li><a title="黑木耳" href="" target="_blank"><img class="imgLoad" src="img/timenew/heimuer.jpg" /><br />黑木耳</a><span>八朵木耳一身轻</span></li>
+					<li><a title="羊肉" href="" target="_blank"><img class="imgLoad" src="img/timenew/yangrou.jpg" /><br />羊肉</a><span>暖身恩物</span></li>
+					<li><a title="乌鸡" href="" target="_blank"><img class="imgLoad" src="img/timenew/wuji.jpg" /><br />乌鸡</a><span>滋补强身“战斗鸡”</span></li>
+					<li><a title="鸡翅" href="" target="_blank"><img class="imgLoad" src="img/timenew/jichi.jpg" /><br />鸡翅</a><span>老少通吃</span></li>
+					<li><a title="鲤鱼" href="" target="_blank"><img class="imgLoad" src="img/timenew/liyu.jpg" /><br />鲤鱼</a><span>年年有余</span></li>
+					<li><a title="牛肉" href="" target="_blank"><img class="imgLoad" src="img/timenew/niurou.jpg-v=1.jpg" /><br />牛肉</a><span>牛气冲天不解释</span></li>
+					<li><a title="排骨" href="" target="_blank"><img class="imgLoad" src="img/timenew/paigu.jpg" /><br />排骨</a><span>可记得吮指之乐</span></li>
+					<li><a title="带鱼" href="" target="_blank"><img class="imgLoad" src="img/timenew/daiyu.jpg" /><br />带鱼</a><span>海中一霸静海龙</span></li>
+				</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container" style="margin-top: 15px;">
+			<div class="ui_title">
+				<div class="ui_title_wrap clearfix">
+					<h2 class="on">热门话题</h2>
+					<h2>精华日志</h2>
+					<a class="right " href="JavaScript:;">全部话题</a>
+					<a class="right " href="JavaScript:;">全部日志</a>
+					<a class="right " href="JavaScript:;">社区首页</a>
+				</div>
+			</div>
+			<div class="pin_list clearfix">
+				<ul>
+					<li>
+						<div class="u">
+							<a href="#" class="l">
+								<img width="40" height="40" class="imgLoad" src="img/meishi-topic/07_avatar_big.jpg">
+							</a>
+							<div>
+								<a href="#" class="t" target="_blank">dollzeng</a>
+								<span>4分钟前</span>
+							</div>
+						</div>
+						<div class="c clearfix">
+							<div class="pp">
+								<a href="#">
+									吃吃
+								</a>
+							</div>
+							<a class="clearfix" href="" target="_blank">
+								<img class="imgLoad" src="img/meishi-topic/20170210093342786.jpg" style="display: block;">
+								<img class="imgLoad" src="img/meishi-topic/20170210093349402.jpg" style="display: block;">
+								<img class="imgLoad" src="img/meishi-topic/2017021009335594.jpg" style="display: block;">
+								<img class="imgLoad" src="img/meishi-topic/20170210093406552.jpg" style="display: block;">
+								<b>6</b>
+							</a>
+							<div class="num"><span style="display: none;"><b>4</b>个喜欢，5条评论</span></div>
+						</div>
+					</li>
+					<li class="fr">
+						<div class="u">
+							<a href="#" class="l">
+								<img width="40" height="40" class="imgLoad" src="img/meishi-topic/50_avatar_big.jpg">
+							</a>
+							<div>
+								<a href="#" class="t" target="_blank">DZQ小敏</a>
+								<span>6分钟前</span>
+							</div>
+						</div>
+						<div class="c clearfix">
+							<div class="pp">
+								<a href="#">
+									<strong>2017.2.9</strong><br> ❤ 怎么让你喜欢的人追你 ？ 　 　　　　　　　　　　　　　......
+								</a>
+							</div>
+							<a class="clearfix" href="" target="_blank">
+								<img class="imgLoad" src="img/meishi-topic/201702091486651717150.jpg" style="display: block;">
+							</a>
+							<div class="num"><span style="display: none;"><b>4</b>个喜欢，5条评论</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="u">
+							<a href="#" class="l">
+								<img width="40" height="40" class="imgLoad" src="img/meishi-topic/14_avatar_big.jpg">
+							</a>
+							<div>
+								<a href="#" class="t" target="_blank">祯祯宝贝</a>
+								<span>10分钟前</span>
+							</div>
+						</div>
+						<div class="c clearfix">
+							<div class="pp">
+								<a href="#">
+									可以不自律，但是却需要承担因为不自律而产生的代价。这世上有很多条路可以让你成为自己，唯独放纵不可。
+								</a>
+							</div>
+							<a class="clearfix" href="" target="_blank">
+								<img class="imgLoad" src="img/meishi-topic/201702061486344603165.jpg" style="display: block;">
+								<img class="imgLoad" src="img/meishi-topic/201702061486344608125.jpg" style="display: block;">
+								<img class="imgLoad" src="img/meishi-topic/201702061486344611700.jpg" style="display: block;">
+								<img class="imgLoad" src="img/meishi-topic/201702061486344612171.jpg" style="display: block;">
+								<b>9</b>
+							</a>
+							<div class="num"><span style="display: none;"><b>5</b>个喜欢，8条评论</span></div>
+						</div>
+					</li>
+					<li class="fr">
+						<div class="u">
+							<a href="#" class="l">
+								<img width="40" height="40" class="imgLoad" src="img/meishi-topic/97_avatar_big.jpg">
+							</a>
+							<div>
+								<a href="#" class="t" target="_blank">家yao</a>
+								<span>12分钟前</span>
+							</div>
+						</div>
+						<div class="c clearfix">
+							<div class="pp">
+								<a href="#">
+									<strong>* 家·年味 * 贺小妹喜迁新居宴</strong> <br> 美天里那些巧妇呀！那些美美的汤圆呀！把我牵进那美美的元宵节......
+								</a>
+							</div>
+							<a class="clearfix" href="" target="_blank">
+								<img class="imgLoad" src="img/meishi-topic/201702091486654645308.jpg" style="display: block;">
+								<img class="imgLoad" src="img/meishi-topic/201702091486654648400.jpg" style="display: block;">
+								<img class="imgLoad" src="img/meishi-topic/201702091486654648948.jpg" style="display: block;">
+								<img class="imgLoad" src="img/meishi-topic/201702091486654649539.jpg" style="display: block;">
+
+							</a>
+							<div class="num"><span style="display: none;"><b>2</b>个喜欢，1条评论</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="u">
+							<a href="#" class="l">
+								<img width="40" height="40" class="imgLoad" src="img/meishi-topic/29_avatar_big.jpg">
+							</a>
+							<div>
+								<a href="#" class="t" target="_blank">黄雯琪</a>
+								<span>16分钟前</span>
+							</div>
+						</div>
+						<div class="c clearfix">
+							<div class="pp">
+								<a href="#">
+									9日的午晚餐
+								</a>
+							</div>
+							<a class="clearfix" href="" target="_blank">
+								<img class="imgLoad" src="img/meishi-topic/201702101486694512390.jpg" style="display: block;">
+								<img class="imgLoad" src="img/meishi-topic/201702101486694512905.jpg" style="display: block;">
+							</a>
+							<div class="num"><span style="display: none;"><b>4</b>个喜欢，5条评论</span></div>
+						</div>
+					</li>
+					<li class="fr">
+						<div class="u">
+							<a href="#" class="l">
+								<img width="40" height="40" class="imgLoad" src="img/meishi-topic/17_avatar_big.jpg">
+							</a>
+							<div>
+								<a href="#" class="t" target="_blank">爱美食的志宝妈</a>
+								<span>20分钟前</span>
+							</div>
+						</div>
+						<div class="c clearfix">
+							<div class="pp">
+								<a href="#">
+									今日早餐：鲜牛肉粉+鸡蛋+酱瓜+香蕉，天气有点冷，吃一碗热气腾腾的鲜牛肉粉，全身暖呵呵的。牛肉粉和香菜是绝配哦！早安😊
+								</a>
+							</div>
+							<a class="clearfix" href="" target="_blank">
+								<img class="imgLoad" src="img/meishi-topic/201702101486694516783.jpg" style="display: block;">
+								<img class="imgLoad" src="img/meishi-topic/201702101486694516966.jpg" style="display: block;">
+								<img class="imgLoad" src="img/meishi-topic/201702101486694518731.jpg" style="display: block;">
+								<img class="imgLoad" src="img/meishi-topic/201702101486694518745.jpg" style="display: block;">
+								<b>9</b>
+							</a>
+							<div class="num"><span style="display: none;"><b>2</b>个喜欢，12条评论</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="u">
+							<a href="#" class="l">
+								<img width="40" height="40" class="imgLoad" src="img/meishi-topic/24_avatar_big.jpg">
+							</a>
+							<div>
+								<a href="#" class="t" target="_blank">娇婧</a>
+								<span>30分钟前</span>
+							</div>
+						</div>
+						<div class="c clearfix">
+							<div class="pp">
+								<a href="#">
+									<strong>顺其自然</strong> <br /> 日子，就这样，隆重而来，悄然而去。一天又一天，一......
+								</a>
+							</div>
+							<a class="clearfix" href="" target="_blank">
+								<img class="imgLoad" src="img/meishi-topic/201702101486691217369.jpg" style="display: block;">
+								<img class="imgLoad" src="img/meishi-topic/201702101486691217975.jpg" style="display: block;">
+								<img class="imgLoad" src="img/meishi-topic/201702101486691220275.jpg" style="display: block;">
+							</a>
+							<div class="num"><span style="display: none;"><b>2</b>个喜欢，12条评论</span></div>
+						</div>
+					</li>
+					<li class="fr">
+						<div class="u">
+							<a href="#" class="l">
+								<img width="40" height="40" class="imgLoad" src="img/meishi-topic/62_avatar_big.jpg">
+							</a>
+							<div>
+								<a href="#" class="t" target="_blank">dollzeng</a>
+								<span>刚刚</span>
+							</div>
+						</div>
+						<div class="c clearfix">
+							<div class="pp">
+								<a href="#">
+									吃吃
+								</a>
+							</div>
+							<a class="clearfix" href="" target="_blank">
+								<img class="imgLoad" src="img/meishi-topic/201702101486706194497.jpg" style="display: block;">
+								<img class="imgLoad" src="img/meishi-topic/201702101486706195258.jpg" style="display: block;">
+								<img class="imgLoad" src="img/meishi-topic/201702101486706196788.jpg" style="display: block;">
+							</a>
+							<div class="num"><span style="display: none;"><b>4</b>个喜欢，5条评论</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="u">
+							<a href="#" class="l">
+								<img width="40" height="40" class="imgLoad" src="img/meishi-topic/50_avatar_big.jpg">
+							</a>
+							<div>
+								<a href="#" class="t" target="_blank">DZQ小敏</a>
+								<span>6分钟前</span>
+							</div>
+						</div>
+						<div class="c clearfix">
+							<div class="pp">
+								<a href="#">
+									<strong>2017.2.9</strong><br> ❤ 怎么让你喜欢的人追你 ？ 　 　　　　　　　　　　　　　......
+								</a>
+							</div>
+							<a class="clearfix" href="" target="_blank">
+								<img class="imgLoad" src="img/meishi-topic/201702091486651717150.jpg" style="display: block;">
+							</a>
+							<div class="num"><span style="display: none;"><b>4</b>个喜欢，5条评论</span></div>
+						</div>
+					</li>
+					<li class="fr">
+						<div class="u">
+							<a href="#" class="l">
+								<img width="40" height="40" class="imgLoad" src="img/meishi-topic/14_avatar_big.jpg">
+							</a>
+							<div>
+								<a href="#" class="t" target="_blank">祯祯宝贝</a>
+								<span>10分钟前</span>
+							</div>
+						</div>
+						<div class="c clearfix">
+							<div class="pp">
+								<a href="#">
+									可以不自律，但是却需要承担因为不自律而产生的代价。这世上有很多条路可以让你成为自己，唯独放纵不可。
+								</a>
+							</div>
+							<a class="clearfix" href="" target="_blank">
+								<img class="imgLoad" src="img/meishi-topic/201702061486344603165.jpg" style="display: block;">
+								<img class="imgLoad" src="img/meishi-topic/201702061486344608125.jpg" style="display: block;">
+								<img class="imgLoad" src="img/meishi-topic/201702061486344611700.jpg" style="display: block;">
+								<img class="imgLoad" src="img/meishi-topic/201702061486344612171.jpg" style="display: block;">
+								<b>9</b>
+							</a>
+							<div class="num"><span style="display: none;"><b>5</b>个喜欢，8条评论</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="u">
+							<a href="#" class="l">
+								<img width="40" height="40" class="imgLoad" src="img/meishi-topic/97_avatar_big.jpg">
+							</a>
+							<div>
+								<a href="#" class="t" target="_blank">家yao</a>
+								<span>12分钟前</span>
+							</div>
+						</div>
+						<div class="c clearfix">
+							<div class="pp">
+								<a href="#">
+									<strong>* 家·年味 * 贺小妹喜迁新居宴</strong> <br> 美天里那些巧妇呀！那些美美的汤圆呀！把我牵进那美美的元宵节......
+								</a>
+							</div>
+							<a class="clearfix" href="" target="_blank">
+								<img class="imgLoad" src="img/meishi-topic/201702091486654645308.jpg" style="display: block;">
+								<img class="imgLoad" src="img/meishi-topic/201702091486654648400.jpg" style="display: block;">
+								<img class="imgLoad" src="img/meishi-topic/201702091486654648948.jpg" style="display: block;">
+								<img class="imgLoad" src="img/meishi-topic/201702091486654649539.jpg" style="display: block;">
+
+							</a>
+							<div class="num"><span style="display: none;"><b>2</b>个喜欢，1条评论</span></div>
+						</div>
+					</li>
+					<li class="fr">
+						<div class="u">
+							<a href="#" class="l">
+								<img width="40" height="40" class="imgLoad" src="img/meishi-topic/29_avatar_big.jpg">
+							</a>
+							<div>
+								<a href="#" class="t" target="_blank">黄雯琪</a>
+								<span>16分钟前</span>
+							</div>
+						</div>
+						<div class="c clearfix">
+							<div class="pp">
+								<a href="#">
+									9日的午晚餐
+								</a>
+							</div>
+							<a class="clearfix" href="" target="_blank">
+								<img class="imgLoad" src="img/meishi-topic/201702101486694512390.jpg" style="display: block;">
+								<img class="imgLoad" src="img/meishi-topic/201702101486694512905.jpg" style="display: block;">
+							</a>
+							<div class="num"><span style="display: none;"><b>4</b>个喜欢，5条评论</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="u">
+							<a href="#" class="l">
+								<img width="40" height="40" class="imgLoad" src="img/meishi-topic/17_avatar_big.jpg">
+							</a>
+							<div>
+								<a href="#" class="t" target="_blank">爱美食的志宝妈</a>
+								<span>20分钟前</span>
+							</div>
+						</div>
+						<div class="c clearfix">
+							<div class="pp">
+								<a href="#">
+									今日早餐：鲜牛肉粉+鸡蛋+酱瓜+香蕉，天气有点冷，吃一碗热气腾腾的鲜牛肉粉，全身暖呵呵的。牛肉粉和香菜是绝配哦！早安😊
+								</a>
+							</div>
+							<a class="clearfix" href="" target="_blank">
+								<img class="imgLoad" src="img/meishi-topic/201702101486694516783.jpg" style="display: block;">
+								<img class="imgLoad" src="img/meishi-topic/201702101486694516966.jpg" style="display: block;">
+								<img class="imgLoad" src="img/meishi-topic/201702101486694518731.jpg" style="display: block;">
+								<img class="imgLoad" src="img/meishi-topic/201702101486694518745.jpg" style="display: block;">
+								<b>9</b>
+							</a>
+							<div class="num"><span style="display: none;"><b>2</b>个喜欢，12条评论</span></div>
+						</div>
+					</li>
+					<li class="fr">
+						<div class="u">
+							<a href="#" class="l">
+								<img width="40" height="40" class="imgLoad" src="img/meishi-topic/24_avatar_big.jpg">
+							</a>
+							<div>
+								<a href="#" class="t" target="_blank">娇婧</a>
+								<span>30分钟前</span>
+							</div>
+						</div>
+						<div class="c clearfix">
+							<div class="pp">
+								<a href="#">
+									<strong>顺其自然</strong> <br /> 日子，就这样，隆重而来，悄然而去。一天又一天，一......
+								</a>
+							</div>
+							<a class="clearfix" href="" target="_blank">
+								<img class="imgLoad" src="img/meishi-topic/201702101486691217369.jpg" style="display: block;">
+								<img class="imgLoad" src="img/meishi-topic/201702101486691217975.jpg" style="display: block;">
+								<img class="imgLoad" src="img/meishi-topic/201702101486691220275.jpg" style="display: block;">
+							</a>
+							<div class="num"><span style="display: none;"><b>2</b>个喜欢，12条评论</span></div>
+						</div>
+					</li>
+				
+				</ul>
+
+			</div>
+		</div>
+		
+		<div class="footer-area clear">
+			<div class="w">
+				<div class="ft1">
+					<p class="c3b"><a>美食天下 - 让吃更美好！</a></p>
+					<p class="c3c"><a>认识美天</a> · <a>在美天工作</a> · <a>广告与合作</a> · <a>版权与免责</a> · <a>帮助中心</a> · <a>网站地图</a> · <a>移动应用</a></p>
+					<p style="line-height: 22px; padding: 18px 0px 0px;"><strong style="color:#000">合作媒体：</strong> <a><img src="img/yidianzixun.gif" style="height: 22px; margin: 0px 0px 0px 10px;"></a></p>
+				</div>
+				<div class="ft4">
+					<img width="82" title="微信公众号" src="img/weixin_727.png">微信公众号
+				</div>
+				<div class="ft3">
+					<img width="82" title="手机客户端" src="img/msc_app.png">手机客户端
+				</div>
+				<div class="w_links clear">
+					<ul>
+					<li><strong>友情链接：</strong></li>
+						<li><a>爱奇艺生活</a></li>
+						<li><a>应用汇</a></li>
+						<li><a>中华美食网</a></li>
+						<li><a>太平洋亲子网</a></li>
+						<li><a>美食杰</a></li>
+						<li><a>POCO美食网</a></li>
+						<li><a>红餐网</a></li>
+						<li><a>食品商务网</a></li>
+						<li><a>妈妈网</a></li>
+						<li><a>亲宝网</a></li>
+						<li><a>6296网址大全</a></li>
+						<li><a>中国地图</a></li>
+						<li><a>三九养生堂</a></li>
+						<li><a>饭菜网</a></li>
+						<li><a>波奇网</a></li>
+						<li><a>糖豆网</a></li>
+						<li><a>慧聪网</a></li>
+						<li><a>企业服务平台</a></li>
+						<li><a>什么值得买</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="J_footer_box" class="footer-info">
+			<div class="w">
+				<p class="left">
+				版权所有 &copy; 2004-2017 <a target="_blank" href="index.htm">美食天下</a> 保留所有权利 - <img height="14" src="img/beian.png"> <a rel="nofollow" target="_blank">京公网安备 11010502031041号</a> / 京ICP证090244号 / <a rel="nofollow" target="_blank">京ICP备10020153号</a>
+				</p>
+				<div class="right">
+					<a><img width="64" height="23" src="img/cnnic.png"></a>
+				</div>
+			</div>
+		</div>
+		<div id=""><span class="gototop"></span></div>
+		<script src="js/jquery.gototop.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
